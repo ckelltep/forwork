@@ -1,5 +1,6 @@
 <?php
 
+//код возвращает идти на роботу в будние дни
 function working()
 {
     $work = 'go to work';
