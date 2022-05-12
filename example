@@ -1,0 +1,12 @@
+<?php
+
+function working()
+{
+    $work = 'go to work';
+    $notToWork = 'not go to work';
+    if (date(N) === 7 || date(N) === 6 )
+    {
+        return $notToWork;
+    }
+    else return $work;
+}
